@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #003e77;
+} /*Setting the font to Arial and background colour*/
+
+/*Setting margines and padding to 0 to make the website more "full"*/
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+div.page {
+    text-align: center;
+}
+/*Navigation bar*/
+.navigation {
+  background-color: #003e77;
+  justify-content: center;
+  display: flex;
+}
+
+/*Making sure the navigation text is aligned correctly*/
+.navigation a {
+  color: #000000;
+  font-size: 30px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px 20px;
+}
+/*Changes colour when on hover*/
+.navigation a:hover {
+    background-color: #181818;
+    color: rgb(255, 255, 255);
+  }
+
+/*Visual clue on what page the user is in*/
+.navigation a.main {
+  background-color: #0c8aff;
+  color: rgb(0, 0, 0);
+}
+
+
+/*Align the title and the button to the right position in the page*/
+div.title {
+    color: #ffffff;
+    font-size: xx-large;
+    position: absolute;
+    transform: translate(55%, -170%);
+}
+
+/*Styling the button*/
+.button {
+    background-color: #003e77;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 4px 2px;
+  }
+
+.button:hover {
+    background-color: #000000;
+}
+
+/*Background video alignment*/
+video {
+    width: 85%; 
+  }
+
+/*Minecraft Education Edition title reposition*/
+h1.mc {
+    font-size: 70px;
+    position: absolute;
+    transform: translate(137%, -540%);
+    text-align: left;
+}
+/*Minecraft Education Edition description reposition*/
+h2.mc {
+  font-size: 30px;
+  position: absolute;
+  transform: translate(137%, -220%);
+  text-align: left;
+}
+/*Duolingo title reposition*/
+h1.duo {
+    font-size: 70px;
+    position: absolute;
+    transform: translate(270%, -1090%);
+    text-align: left;
+}
+/*Duolingo description reposition*/
+h2.duo {
+  font-size: 30px;
+  position: absolute;
+  transform: translate(155%, -278%);
+  text-align: left;
+}
+
+/*Styling about page*/
+div.about {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+/*Styling contacts page*/
+div.contacts {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/*Styling more page*/
+div.more {
+  color: #ffffff;
+  text-align: center;
+}
+
+/*Adding margins to the left and right of the paragraphs so it doesn't take up the whole width of the page*/
+p.more {
+  margin-left: 50px; margin-right: 50px;
+}
+
+/*Positioning "Minecraft" text*/
+h1.mcMore {
+  font-size: 70px;
+  position: absolute;
+  transform: translate(25%, -245%);
+  text-align: left;
+}
+
+/*Positioning "Duolingo" text*/
+h1.duoMore {
+  font-size: 70px;
+  position: absolute;
+  transform: translate(265%, -245%);
+  text-align: left;
+}
